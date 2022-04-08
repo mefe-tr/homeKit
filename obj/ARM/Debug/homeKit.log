@@ -1,0 +1,89 @@
+﻿  Cleaning remote project directory
+  Validating sources
+  Copying sources remotely to 'raspberrypi.local'
+  Validating architecture
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning : ‘typedef’ was ignored in this declaration
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :    62 |  typedef union uValue
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :       |  ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :    68 |  const float C1 = -2.0468;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C3 = -0.0000015955; // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float T1 = +0.01;   // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T2 = +0.00008;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~~~~
+  Mqtt.cpp
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(8,7): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(8,7): warning :     8 |   int res = system(pythonCommand.c_str());
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(8,7): warning :       |       ^~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(23,7): warning : unused variable ‘res’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(23,7): warning :    23 |   int res = system(pythonCommand.c_str());
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(23,7): warning :       |       ^~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning : unused variable ‘waitTime’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning :    36 |   uint32_t waitTime = 1;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning :       |            ^~~~~~~~
+  sht7x.cpp
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning : ‘typedef’ was ignored in this declaration
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :    62 |  typedef union uValue
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :       |  ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :    68 |  const float C1 = -2.0468;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C3 = -0.0000015955; // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float T1 = +0.01;   // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T2 = +0.00008;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning :   118 |   ack = digitalRead(DATA);
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning :       |         ~~~~~~~~~~~^~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(146,9): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(146,9): warning :   146 |     val |= i;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(146,9): warning :       |     ~~~~^~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(135,20): warning : unused variable ‘ack’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(135,20): warning :   135 |   uint8_t val = 0, ack = 0xFF;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(135,20): warning :       |                    ^~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(241,92): warning : conversion from ‘std::chrono::duration<long long int, std::ratio<1, 1000> >::rep’ {aka ‘long long int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(245,91): warning : conversion from ‘std::chrono::duration<long long int, std::ratio<1, 1000> >::rep’ {aka ‘long long int’} to ‘uint32_t’ {aka ‘unsigned int’} may change value [-Wconversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(252,64): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(252,64): warning :   252 |   uint16_t val = ((uint16_t)((uint16_t)valHigh << 8) & 0xFF00) | ((uint16_t)valLow & 0x00FF);
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(252,64): warning :       |                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(254,10): warning : variable ‘vUnion’ set but not used [-Wunused-but-set-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(254,10): warning :   254 |   uValue vUnion;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(254,10): warning :       |          ^~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(271,27): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(271,27): warning :   271 |   temp = temperature * d2 + d1;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(293,47): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(293,47): warning :   293 |   float k = ( log10( humudity ) - 2) / 0.4343 + (17.62 * temperature) / (243.12 + temperature);
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(293,47): warning :       |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(294,25): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(294,25): warning :   294 |   dewPoint = 243.12 * k / (17.62 - k);
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(294,25): warning :       |              ~~~~~~~~~~~^~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,10): warning : unused variable ‘status’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,10): warning :   367 |  uint8_t status = 0xFF, checkSum = 0xFF;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,10): warning :       |          ^~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,25): warning : unused variable ‘checkSum’ [-Wunused-variable]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,25): warning :   367 |  uint8_t status = 0xFF, checkSum = 0xFF;
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,25): warning :       |                         ^~~~~~~~
+  Linking objects
+  homeKit.vcxproj -> C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\bin\ARM\Debug\homeKit.out
+  Invoking 'gpio export 17 out', working directory: '/home/pi/projects/homeKit/'
