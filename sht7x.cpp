@@ -368,8 +368,12 @@ void Sht7x::measure()
 
 	lock_guard<mutex> lock(mMeasurement); //lock function to avoid multiprocessing
 
+	pinMode(VCC, OUTPUT);
 	pinMode(SCK, OUTPUT);
 	pinMode(DATA, OUTPUT);
+
+	digitalWrite(VCC, HIGH);
+	this_thread::sleep_for(chrono::milliseconds(15));
 
 	this->softReset();
 	this_thread::sleep_for(chrono::milliseconds(15));

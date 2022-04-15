@@ -11,8 +11,9 @@ using namespace std;
 class Sht7x
 {
 //command line = gpio readall
-#define	DATA	13 //Wpi => GPIO.2, BCM => GPIO 27, Pys => GPIO 13
-#define SCK		15 //Wpi => GPIO.3, BCM => GPIO 22, Pys => GPIO 15
+#define	SCK		35 //Wpi => GPIO.24, BCM => GPIO 19, Pys => GPIO 35
+#define DATA	33 //Wpi => GPIO.23, BCM => GPIO 13, Pys => GPIO 33
+#define VCC		37 //Wpi => GPIO.25, BCM => GPIO 26, Pys => GPIO 37
 
 						  //adr command	r/w
 #define STATUS_REG_W 0x06 //000 0011 0
@@ -96,6 +97,9 @@ public:
 	{ 
 		if (h != nullptr) humudity = h;
 		if (t != nullptr) temperature = t;
+
+		pinMode(VCC, OUTPUT);
+		digitalWrite(VCC, HIGH);
 	}
 
 	~Sht7x() { }

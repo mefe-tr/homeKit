@@ -6,24 +6,24 @@
   Starting remote build
   Compiling sources:
   main.cpp
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning : ‘typedef’ was ignored in this declaration
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :    62 |  typedef union uValue
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :       |  ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :    68 |  const float C1 = -2.0468;  // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :       |                   ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning : ‘typedef’ was ignored in this declaration
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning :    63 |  typedef union uValue
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning :       |  ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C1 = -2.0468;  // for 12 Bit RH
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :       |                   ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C3 = -0.0000015955; // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float T1 = +0.01;   // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T2 = +0.00008;  // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float C3 = -0.0000015955; // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T1 = +0.01;   // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning :    73 |  const float T2 = +0.00008;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning :       |                   ^~~~~~~~
   Mqtt.cpp
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(8,7): warning : unused variable ‘res’ [-Wunused-variable]
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(8,7): warning :     8 |   int res = system(pythonCommand.c_str());
@@ -35,24 +35,24 @@ C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning : unus
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning :    36 |   uint32_t waitTime = 1;
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\Mqtt.cpp(36,12): warning :       |            ^~~~~~~~
   sht7x.cpp
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning : ‘typedef’ was ignored in this declaration
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :    62 |  typedef union uValue
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(62,2): warning :       |  ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :    68 |  const float C1 = -2.0468;  // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(68,19): warning :       |                   ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning : ‘typedef’ was ignored in this declaration
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning :    63 |  typedef union uValue
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(63,2): warning :       |  ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-2.0468000000000002e+0’ to ‘-2.0467999e+0f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :    69 |  const float C1 = -2.0468;  // for 12 Bit RH
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(69,19): warning :       |                   ^~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C3 = -0.0000015955; // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~~~~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float T1 = +0.01;   // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T2 = +0.00008;  // for 12 Bit RH
-C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘3.6700000000000003e-2’ to ‘3.66999991e-2f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :    70 |  const float C2 = +0.0367;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(70,19): warning :       |                   ^~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘-1.5955e-6’ to ‘-1.59549995e-6f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :    71 |  const float C3 = -0.0000015955; // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(71,19): warning :       |                   ^~~~~~~~~~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.0e-2’ to ‘9.99999978e-3f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :    72 |  const float T1 = +0.01;   // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(72,19): warning :       |                   ^~~~~
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning : conversion from ‘double’ to ‘float’ changes value from ‘8.0000000000000007e-5’ to ‘7.9999998e-5f’ [-Wfloat-conversion]
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning :    73 |  const float T2 = +0.00008;  // for 12 Bit RH
+C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.h(73,19): warning :       |                   ^~~~~~~~
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning :   118 |   ack = digitalRead(DATA);
 C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(118,20): warning :       |         ~~~~~~~~~~~^~~~~~
@@ -87,3 +87,6 @@ C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\sht7x.cpp(367,25): warning :   
   Linking objects
   homeKit.vcxproj -> C:\Users\efemu\Masaüstü\Projects\CPlus\homeKit\bin\ARM\Debug\homeKit.out
   Invoking 'gpio export 17 out', working directory: '/home/pi/projects/homeKit/'
+  gpio: Unable to open GPIO direction interface for pin 17: No such file or directory
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Application Type\Linux\1.0\Linux.targets(715,5): error : gpio export 17 out exited with code 1, please see the Output Window - Build output for more details (NOTE: the build output verbosity might need to be changed in Tools Options to see more information in the Output Window).
